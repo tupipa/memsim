@@ -1,3 +1,4 @@
+#all: bin/Prof.OoOTraceSimulator
 all: bin/OoOTraceSimulator bin/Debug.OoOTraceSimulator bin/Prof.OoOTraceSimulator
 debug1: bin/Debug.OoOTraceSimulator
 
