@@ -344,6 +344,7 @@ class OoOTraceSimulator {
 
     // -------------------------------------------------------------------------
     // Function to start the simulation
+    // lele: simulating the ooo cores
     // -------------------------------------------------------------------------
 
     void StartSimulation() {
