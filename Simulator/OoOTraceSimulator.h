@@ -176,6 +176,8 @@ class OoOTraceSimulator {
           uint32 cpuID = request -> cpuID;
 
           // check if the request is out of the outstanging queue
+          // lelema: outstanding queue: 
+          // 		 http://courses.cs.washington.edu/courses/csep548/06au/lectures/cacheAdv.pdf
           if (_ref.find(request) != _ref.end()) {
             _ref.erase(request);
             delete request;
